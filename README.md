@@ -18,6 +18,66 @@ Welcome to the NewsTok project! This README will guide you through the steps to 
 ## Overview
 NewsTok is a TikTok-like news application that leverages microservices architecture. The application consists of various components, each responsible for specific tasks such as news scraping, AI and ML functionalities, news reel creation, and user interactions.
 
++------------------------+
+|    NewsTok User        |
+|     Frontend           |
+|  (Flutter App)         |
++------------------------+
+            |
+            | HTTP Requests
+            |
+            v
++------------------------+
+|  User Backend Service  |
+|  (newstok-user-java-   |
+|      backend)          |
++------------------------+
+            |
+            | Communicates with
+            | API Gateway
+            |
+            v
++------------------------+
+|  API Gateway           |
+|  (newstok-Api-Gateway) |
+|  - Eureka Server       |
+|  - API Gateway         |
++------------------------+
+            |
+            | Routes requests to
+            | appropriate services
+            |
+            v
++------------------------+
+|  Admin Backend Service |
+|  (newstok-admin-java-  |
+|       backend)         |
++------------------------+
+            |
+            | Communicates with
+            | Python APIs
+            |
+            v
++------------------------+
+|   Python APIs          |
+|  (newstok-python-apis) |
+|  - AI/ML Models        |
+|  - News Scraping       |
++------------------------+
+            |
+            | Provides data to
+            | Admin Backend
+            |
+            v
++------------------------+
+|   Admin Frontend       |
+|   (HTML/CSS/JS)        |
+|   (newstok-admin-      |
+|       frontend)        |
++------------------------+
+
+
+
 ### Key Components:
 - **Admin Backend**: Handles admin functionalities like news scraping and news reel creation.
 - **User Backend**: Manages user interactions with the news reels.
