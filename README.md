@@ -39,7 +39,7 @@ Below are the repositories associated with each component:
 - **[newstok-user-java-backend](https://github.com/PaleBlueDot-repo/newstok-user-java-backend)**: User backend server.
 - **[newstok-python-apis](https://github.com/PaleBlueDot-repo/newstok-python-apis)**: Python APIs for AI, ML, and news scraping.
 - **[newstok-admin-frontend](https://github.com/PaleBlueDot-repo/newstok-admin-frontend)**: Admin frontend application.
-- **[newstok-flutter-frontend](https://github.com/PaleBlueDot-repo/newstok-flutter-frontend)**: User frontend application.
+- **[newstok-user-frontend](https://github.com/PaleBlueDot-repo/newstok-user-frontend)**: User frontend application.
 
 **Note:** Detailed instructions for downloading, installing, and running each repository are provided in the README files within each individual repository. Please refer to those READMEs for specific setup steps.
 
