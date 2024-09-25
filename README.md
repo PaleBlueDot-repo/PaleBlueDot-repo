@@ -1,6 +1,7 @@
 # NewsTok - Integrated Microservices Setup
 
 Welcome to the NewsTok project! This README will guide you through the steps to integrate and run the entire application, including all the microservices and frontend components.
+Project overview video: https://youtu.be/54LeyFAKmlk
 
 # Table of Contents
 1. [Overview](#overview)
@@ -49,10 +50,7 @@ Before you start, make sure you have the following installed on your machine:
 
 - **Java 11 or later**
 - **Spring Boot**
-- **Node.js & npm**
-- **Flutter**
 - **Python 3.x**
-- **Docker (Optional for running services in containers)**
 
 Ensure you clone all the repositories listed above.
 
@@ -106,13 +104,9 @@ cd newstok-admin-frontend
 Given all the instructions in the newstok-admin-frontend  repositories Readme files
 
 # User Frontend
-cd ../newstok-flutter-frontend
+cd newstok-user-frontend
 
-# Get Flutter dependencies
-flutter pub get
 
-# Run the Flutter app
-flutter run
 ```
 
 ## Microservices Communication
